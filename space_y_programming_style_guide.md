@@ -212,6 +212,44 @@ int exampleVar=0;
 int exampleVar = 0;
 ```
 
+### 함수명과 괄호 사이에 space가 있으면 안된다.
+```c
+// bad
+int func ();
+```
+```c
+// good
+int func();
+```
+
+### 괄호와 파라미터 사이에 space가 있으면 안된다.
+```c
+// bad
+if( condition ){
+	doSomething();
+}
+```
+```c
+// good
+if(condition){
+	doSomething();
+}
+```
+
+### 괄호와 중괄호 사이에 공백은 있으면 안된다.
+```c
+// bad
+if(condition) {
+	doSomething();
+}
+```
+```c
+// good
+if(condition){
+	doSomething();
+}
+```
+
 ### 두개의 연속된 공백은 있으면 안된다. 단 들여쓰기는 제외.
 
 ### 함수, 선언문, 제어 구조 다음에 오는 중괄호의 뒤쪽에만 줄바꿈이 있어야 한다.
