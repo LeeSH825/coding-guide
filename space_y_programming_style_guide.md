@@ -108,7 +108,7 @@ notPerfectFunc(); // TODO: Implement function
 ## File-and-Directory
 ### 파일 이름은 가능한 상세하게 서술형으로 작성한다.
 ### (File Name) 이미 존재하는 파일 이름은 사용하지 않는다.
-> errorno.h  //bad
+> errorno.h  // bad
 
 ### (File Naming) 파일 이름은 상세하게 적되, 전부 소문자로 작성한다. 필요한 경우 대쉬('-')를 사용할 수 있다.
 
@@ -212,7 +212,7 @@ int exampleVar=0;
 int exampleVar = 0;
 ```
 
-### 두개의 연속된 공백은 있으면 안된다.
+### 두개의 연속된 공백은 있으면 안된다. 단 들여쓰기는 제외.
 
 ### 함수, 선언문, 제어 구조 다음에 오는 중괄호의 뒤쪽에만 줄바꿈이 있어야 한다.
 ```c
@@ -311,11 +311,11 @@ char *cvtDigit2Char;
 ```
 ```c
 // good
-int		digit;
+int 	digit;
 char	*cvtDigit2Char;
 ```
 
-### returrn값을 항상 표시하되, return 표현식을 괄호로 묶지 않아야 한다.
+### return값을 항상 표시하되, return 표현식을 괄호로 묶지 않아야 한다.
 ```c
 // bad
 void func(){
